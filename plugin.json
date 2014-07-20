@@ -1,0 +1,19 @@
+{
+    "id": "nodebb-plugin-video",
+    "name": "NodeBB Plugin Video",
+    "description": "NodeBB plugin play mp4 video in html5",
+    "url": "https://github.com/mani95lisa/nodebb-plugin-video",
+    "library": "./index.js",
+    "hooks": [
+        { "hook": "filter:post.parse", "method": "parse", "callbacked": true, "priority": 6 }
+    ],
+    "staticDirs": {
+        "font" : "static/font"
+    },
+    "css": [
+        "static/video-js.min.css"
+    ],
+    "scripts": [
+        "static/vioeo.js"
+    ]
+}
