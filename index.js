@@ -1,11 +1,10 @@
 (function(module) {
     "use strict";
     var Video = {},
-        embed = '<div class="video-container"><video class="video-js vjs-default-skin" controls preload="auto" autoplay width="100%" height="100%">' +
-            '<source src="$1" type="video/mp4" /></video></div>';
+        embed = '<div id="player" config="$1"></div>';
 
     Video.parse = function(postContent, callback) {
-        var re = /<a.*(http:\/\/.*?mp4).*?\/a>/gm;
+        var re = /<a.*(http:\/\/.*?m3u8).*?\/a>/gm;
         if (re.test(postContent) !== false) {
             postContent = postContent.replace(re, embed);
         }

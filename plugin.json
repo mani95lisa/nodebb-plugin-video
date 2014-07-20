@@ -8,12 +8,10 @@
         { "hook": "filter:post.parse", "method": "parse", "callbacked": true, "priority": 6 }
     ],
     "staticDirs": {
-        "font" : "static/font"
+        "swf" : "static"
     },
-    "css": [
-        "static/video-js.min.css"
-    ],
     "scripts": [
-        "static/vioeo.js"
+        "js/jwplayer.js",
+        "js/lib.js"
     ]
 }
