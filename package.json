@@ -1,7 +1,7 @@
 {
   "name": "nodebb-plugin-video",
-  "version": "0.0.2",
-  "description": "NodeBB plugin play mp4 video in html5",
+  "version": "0.0.3",
+  "description": "NodeBB plugin play HLS and mp4 video in html5",
   "main": "index.js",
   "scripts": {
     "test": "echo \\\"Error: no test specified\\\" && exit 1"
