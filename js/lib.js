@@ -12,16 +12,17 @@ $(document).ready(function() {
         }
         if(config){
             jwplayer("player").setup({
-                flashplayer:'/plugins/nodebb-plugin-video/swf/jwplayer.flash.swf',
                 playlist: [{
-                    file:config,
-                    provider:'/plugins/nodebb-plugin-video/swf/HLSProvider6.swf',
-                    type:'hls',
+                    sources: [{
+                        file: config
+                    }]
                 }],
+                flashplayer:'/plugins/nodebb-plugin-video/files/jwplayer.flash.swf',
+                html5player: '/plugins/nodebb-plugin-video/files/jwplayer.html5.js',
                 autostart:true,
                 width: 640,
                 height: 480,
-                primary: "flash"
+                primary: "html5"
             });
         }
     });
@@ -36,16 +37,17 @@ $(document).ready(function() {
         }
         if(config){
             jwplayer("player").setup({
-                flashplayer:'/plugins/nodebb-plugin-video/swf/jwplayer.flash.swf',
                 playlist: [{
-                    file:config,
-                    provider:'/plugins/nodebb-plugin-video/swf/HLSProvider6.swf',
-                    type:'hls',
+                    sources: [{
+                        file: config
+                    }]
                 }],
+                flashplayer:'/plugins/nodebb-plugin-video/files/jwplayer.flash.swf',
+                html5player: '/plugins/nodebb-plugin-video/files/jwplayer.html5.js',
                 autostart:true,
                 width: 640,
                 height: 480,
-                primary: "flash"
+                primary: "html5"
             });
         }
     });
