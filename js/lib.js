@@ -11,7 +11,7 @@ $(document).ready(function() {
             console.log(e);
         }
         if(config){
-            options = {
+            var options = {
                 playlist: [{
                     sources: [{
                         file: config

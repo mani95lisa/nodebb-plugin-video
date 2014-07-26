@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-video",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "NodeBB plugin play HLS and mp4 video in html5",
   "main": "index.js",
   "scripts": {
