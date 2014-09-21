@@ -19,7 +19,7 @@ $(document).ready(function() {
                 }],
                 flashplayer:'/plugins/nodebb-plugin-video/files/jwplayer.flash.swf',
                 html5player: '/plugins/nodebb-plugin-video/files/jwplayer.html5.js',
-                autostart:true,
+                autostart:false,
                 width: "100%",
                 aspectratio: "16:9",
                 primary: "html5"
