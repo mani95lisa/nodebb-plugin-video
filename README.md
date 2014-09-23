@@ -11,5 +11,14 @@ NodeBB plugin play mp4 video in html5 [demo](http://swift.tf/topic/61)
 
 ##Test
 
+Assets:
+
 - http://swiftv.qiniudn.com/wwdc-dev.mp4
 - http://swiftv.qiniudn.com/wwdc-dev.m3u8
+
+Usage:
+
+```
+[video640]
+http://swiftv.qiniudn.com/wwdc-dev.m3u8
+```
